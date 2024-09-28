@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(118, 88, 39);
+}
+header{
+    background-color: rgb(101, 69, 31);
+    color:rgb(234, 198, 150);
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#frame{
+    margin-top:50px;
+    width:90%;
+    aspect-ratio: 16/9;
+    margin-bottom:50px;
+}
+
+header a{
+    color:rgb(234, 198, 150);
+    text-decoration: none;
+}
+
+h1,h3{
+    text-align:center;
+    margin-top: 20px;
+    color:rgb(200, 174, 125);
+}
+
+#btn{
+    margin-bottom:50px;
+    padding:20px;
+    border-radius: 15px;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    background-color: rgb(101, 69, 31);
+    color:rgb(234, 198, 150);
+    text-transform: uppercase;
+}
+
+#episodes{
+    width:85%;
+    aspect-ratio: 1/1;
+    max-height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+    width:85%;
+    margin:30px auto;
+    text-align: center;
+    background-color: #65451F;
+    padding: 20px;
+}
+
+#episodes p{
+    margin-bottom:20px;
+    font-size:30px;
+    color:#EAC696;
+    padding:10px;
+}
+
+#episodes p:hover{
+    background-color: #EAC696;
+    color:#65451F;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
